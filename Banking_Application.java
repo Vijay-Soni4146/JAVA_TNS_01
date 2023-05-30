@@ -4,15 +4,10 @@ public class Banking_Application {
         Scanner sc = new Scanner(System.in);  
  
         BankDetails Cust = new BankDetails();  
-        // System.out.print("How many number of customers do you want to input? ");  
-        // int n = sc.nextInt();
+        
             Cust.openAccount(); 
             Cust.showAccount();
-            // BankDetails Cust[] = new BankDetails[n];  
-            // for (int i = 0; i < Cust.length; i++) {  
-            //     Cust[i] = new BankDetails();  
-            //     Cust[i].openAccount();  
-            // }
+            
 
             int ch;  
             do {  
